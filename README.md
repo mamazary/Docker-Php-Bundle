@@ -1,4 +1,4 @@
-# docker-php-bundle
+# Docker PHP Bundle
 Dockerized Simple PHP with apache and some php extension.
 I build this docker image for easily run the PHP Framework such as Laravel, so I just make it simple.
 
@@ -33,4 +33,12 @@ RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-av
 RUN sed -ri -e 's!/var/www/!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/apache2.conf /etc/apache2/conf-available/*.conf
 ```
 
-Feel free to contribute to this repo.
+## Contributing
+
+Contributions are very welcome on this repository!
+Leave an issue on Github, or create a Pull Request.
+
+
+## License
+
+This work is under [MIT](LICENSE) license.
