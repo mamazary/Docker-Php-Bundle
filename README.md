@@ -3,7 +3,7 @@ Dockerized Simple PHP with apache and some php extension.
 I build this docker image for easily run the PHP Framework such as Laravel, so I just make it simple.
 
 This image contain :
- - PHP 7.2
+ - PHP 7.2 , 7.0
  - Apache
  - PHP Extension 
    - GD
